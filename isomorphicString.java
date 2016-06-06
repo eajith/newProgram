@@ -27,12 +27,12 @@ class Ideone
 		for(i=0;i<26;i++){
 			if(h[i]!=h1[i]){
 				count=-1;
-				System.out.println("NO");
+				System.out.println("0");
 				break;
 			}
 		}
 		if(count!=-1){
-			System.out.println("Yes");
+			System.out.println("1");
 		}
 	}
 }
