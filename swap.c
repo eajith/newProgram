@@ -18,6 +18,6 @@ int main(void) {
 			a[i+1]=temp		
 		}
 	}
-	printf("%s",a);
+	printf("The reverse of string is:%s",a);
 	return 0;
 }
