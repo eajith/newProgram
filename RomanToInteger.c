@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 int main(void) {
+	int n,i;
 	char a[1001];
 	scanf("%s",a);
-	int b[strlen(a)];
-	for(i=0;i<strlen(a);i++){
+	int l=strlen(a);
+	int b[l];
+	for(i=0;i<l;i++){
 		if(a[i]=='I'){
 			b[i]=1;
 		}
